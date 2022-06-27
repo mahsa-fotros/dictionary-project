@@ -3,7 +3,9 @@ import "./Dictionary.css";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-  function handleSubmit(event) {}
+  function handleSubmit(event) {
+    alert(`You are searching for ${keyword} defination`);
+  }
   function handleKeywordSearch(event) {
     event.preventDefault();
     setKeyword(event.target.value);
