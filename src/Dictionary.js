@@ -15,7 +15,7 @@ export default function Dictionary() {
   function handleSubmit(event) {
     event.preventDefault();
     //https://dictionaryapi.dev/
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleRespnse);
   }
   function handleKeywordSearch(event) {
