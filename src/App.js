@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="dictionary" />
         </main>
         <footer className="text-center">
           <small>

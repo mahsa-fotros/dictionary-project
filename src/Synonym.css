@@ -1,0 +1,9 @@
+.Synonym {
+  margin: 10px 0 15px;
+}
+.Synonym .eachOfSynonym {
+  border: 1px solid black;
+  margin-right: 10px;
+  border-radius: 20px;
+  padding: 6px 10px;
+}
