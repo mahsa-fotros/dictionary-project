@@ -17,15 +17,15 @@ export default function Results(props) {
             );
           })}
         </section>
-        <section>
+        <div>
           {props.results.meanings.map(function (meaning, index) {
             return (
-              <div key={index}>
+              <section key={index}>
                 <Meaning meaning={meaning} />
-              </div>
+              </section>
             );
           })}
-        </section>
+        </div>
       </div>
     );
   } else {

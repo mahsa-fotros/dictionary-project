@@ -1,3 +1,8 @@
+.App {
+  padding: 100px 0 50px;
+  max-width: 960px;
+  margin: 0 auto;
+}
 body {
   background: #f7faf6;
 }
